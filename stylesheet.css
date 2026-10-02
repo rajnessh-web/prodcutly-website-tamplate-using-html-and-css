@@ -1,0 +1,354 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+/*header*/
+
+.header{
+	height: 80px;
+	width: 100%;
+	align-content: center;
+	display: flex;
+	position: fixed;
+	top: 0px;
+	
+
+}
+
+.logo{
+	margin-left: 50Px;
+}
+
+img{
+	height: 80px;
+	width: 200px;
+}
+
+a{
+	text-decoration: none;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.headermenu{
+	margin-top: 30px;
+	margin-left: 300px;
+
+}
+
+.button{
+	margin-left: 100px;
+}
+
+button{
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 15PX;
+	height: 50px;
+	width: 100px;
+	
+}
+
+.signin{
+	border-radius: 5px;
+	border-color: .5px solid green;
+}
+
+.buttonsignup{
+	background-color: orange;
+	border: none;
+	border-radius: 5px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+.paragraph{
+	font-size: 20px;
+}
+
+.about{
+	margin-top: 150px;
+	margin-left: 60px;
+	display: flex;
+}
+
+
+
+.img{
+	margin-left: 150px;
+}
+
+.img2{
+	height: 500px;
+	width: 600px;
+
+}
+
+.getstart{
+	font-size: 20px;
+	height: 60px;
+	width: 180px;
+	border-radius: 5px;
+	border: none;
+	background-color: orange;
+	font-weight: bold;
+}
+
+.watchvideo{
+	font-size: 15px;
+	font-weight: bold;
+	width: 200px;
+	border: none;
+}
+
+
+/*product*/
+
+.productsection{
+	margin-top: 100px;
+}
+
+.product{
+	margin-left: 400px;
+}
+
+.menu-item{
+	height: 80px;
+	width: 80px;
+}
+
+.product-item{
+
+	margin-left: 80px;
+}
+
+.paragraph-item{
+	font-size: 20px;
+}
+
+.product-menu{
+	margin-left: 50px;
+	margin-top: 50px;
+	display: flex;
+}
+
+.product-button{
+	margin-left: 600px;
+}
+
+.signup-button{
+	background-color: orange;
+	border: none;
+	border-radius: 5px;
+	height: 60px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+/*customers*/
+
+
+.customers{
+	margin-top: 150px;
+	margin-left: 80px;
+	display: flex;
+}
+
+.customerimg{
+	margin-left: 130px;
+	height: 500px;
+	width: 600px;
+}
+
+.customersdetails{
+	margin-top: 50px;
+
+}
+
+
+/*productsection*/
+
+.productmanager{
+	display: flex;
+	margin-top: 150px;
+}
+
+.productimg{
+	margin-left: 50px;
+
+}
+
+.productimg1{
+	height: 500px;
+	width: 600px;
+}
+
+.bulets{
+	display: flex;
+
+}
+
+.buletsimg{
+	width: 40px;
+	height: 40px;
+
+}
+
+.notes{
+	margin-left: 30px;
+	font-size: 18px;
+}
+
+
+/*MARKETERS*/
+
+.marketers{
+	display: flex;
+	margin-top: 150px;
+	margin-left: 100px;
+}
+
+.marketersimg{ 
+	margin-left: 150px;
+	height: 600px;
+	width: 600px;
+}
+
+.marketersparagraph{
+	font-family: arial;
+	font-size: 18px;
+}
+
+
+
+/*NEED*/
+
+
+.need{
+	margin-top: 200px;
+	text-align: center;
+}
+
+.need-note{
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.need-button{
+	height: 50px;
+	width: 190px;
+	margin-top: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: orange;
+	color: white;
+	font-size: 18px;
+}
+
+	/*MARKETING STRATEGIES*/
+
+.marketing{
+	margin-top: 130px;
+	margin-left: 100px;
+}
+
+.marketing_strategies{
+	font-size: 40px;
+
+}
+
+.marketing_pragraph{
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.marketing_menu{
+	gap: 100px;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 70px;
+
+}
+
+.main-menu{
+	align-items: center;
+}
+
+
+.marketing_img{
+	height: 200px;
+	width: 340px;
+	align-items: center;
+}
+
+.hrline{
+	margin-top: 170px;
+}
+
+
+/*footer*/
+
+.footer_logo{
+	margin-top: 70px;
+}
+
+
+.footer{
+	margin-left: 100px;
+	display: flex;
+}
+
+.footer_column a {
+	display: block;
+	justify-content: center;
+
+}
+
+.footer_column{
+	margin-top: 100px;
+	margin-left: 150px;
+
+}
+
+a{
+	margin-left: 25px;
+}
+
+.Contect{
+	
+	font-stretch: ultra-expanded;
+
+
+}
+
+
+.contect_input{
+	margin-top: 80px;
+	height: 50px;
+	width: 220px;
+	border: 1px solid yellow;
+	border-color: yellow;
+}
+
+.sign_up_button{
+	height: 50px;
+	width: 200px;
+	color: white;
+	background-color: orange;
+	border: none;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
